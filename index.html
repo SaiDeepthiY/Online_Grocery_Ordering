@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            GreenGrocery
+            
+        </title>
+        <meta name="description" content="India's biggest online grocery shopping platform and get it delivered with in minutes.">
+        <meta name="keywords" content="online grocery,grocery,groceries,green,green grocery,online,online shopping,shop">
+      
+    </head>
+    <body>
+        <!----------------------------Header------------------------------------->
+       <div class="header">
+        <a href="home.html" class="logo">
+            <img src="media/logo.png" alt=""/>
+        </a>
+        <a href="home.html" class="logo1">
+            <img src="media/logo1.png" alt=""/>
+        </a>
+        <form class="search">
+            <input type="search" id="search-box" placeholder="search here..."/>
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <nav class="navbar">
+            <a href="login.html" > <Button type="submit" class="button">Login <i class="fa fa-user"></i></Button></a>
+          <a href="mycart.html" target="_blank" >  <Button type="submit" class="button">Cart <i class="fa fa-shopping-cart"></i></Button></a>
+        </nav>
+       </div>
+       <!-----------------------------------Menu Bar---------------------------------------------------->
+       <div class="menubar">
+        <select name="Country" class="categories" id="t5" >
+            <option value="-1" selected>Shop By Categories</option>
+            <option value="1">Vegetables & Fruits</option>
+            <option value="2">Egg, Meat & Fish</option>
+            <option value="3">Pulses</option>
+            <option value="4">Oil & Masalas</option>
+            <option value="5">Dairy Products</option>
+            <option value="6">Snacks</option>
+            <option value="7">Beverages</option>
+            <option value="8">Kitchen Items</option>
+         </select>
+        <menu class="menu">
+        <a href="home.html" >Home</a>
+        <a href="About Us.html" >About Us</a>
+        <a href="Contact us.html" >Contact Us</a>
+        </menu>
+       </div>
+       <!--============================================- Home ============================================--->
+       <section class="home" id="home">
+        <img src="media/1.png" alt="greengrocery" />
+        <img src="media/2.png" alt="greengrocery"/>
+        <img src="media/3.png" alt="greengrocery"/>
+        <img src="media/4.jpg" alt="greengrocery"/>
+        <img src="media/5.jpg" alt="greengrocery"/>
+        <img src="media/6.jpg" alt="greengrocery"/>
+        <img src="media/7.jpg" alt="greengrocery"/>
+       </section>
+       <div class="btncont">
+       <Button type="Offers" class="shop">Offers</Button>
+       <Button type="veg" class="shop">Vegetables & Fruits</Button>
+       <Button type="snacks" class="shop">Snacks</Button>
+       <Button type="Cleaning" class="shop">Beverages</Button>
+       <Button type="Baverage" class="shop">Kitchenware</Button>
+       </div>
+       <h1>Top Offers</h1>
+       <div class="offers">
+        <img src="media/offer1.jpg" alt="greengrocery"/>
+        <img src="media/offer2.jpg" alt="greengrocery"/>
+        <img src="media/offer3.jpg" alt="greengrocery"/>
+        <img src="media/offer4.jpg" alt="greengrocery"/>
+       </div>
+       <!-------------------------------------------Vegetable Store--------------------------------------->
+       <h1>Vegetables And Fruits</h1>
+       <div class="vegf" id="veg">
+        <div class="veg">
+            <img src="media/tomato.jpg" alt="greengrocery" />
+            <form>
+            <label>Fresh Tomato</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="veg">
+            <img src="media/potato.jpg" alt="greengrocery" />
+            <form>
+            <label>Freah Potato</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="veg">
+            <img src="media/onion.jpg" alt="greengrocery" />
+            <form>
+            <label>Onion</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="veg">
+            <img src="media/apple.jpg" alt="greengrocery" />
+            <form>
+            <label>Apple</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="veg">
+            <img src="media/grapes.jpg" alt="greengrocery" />
+            <form>
+            <label>Grapes</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        
+       </div>
+       <!---------------------------------------Egg , Meat and Fish Store------------------------------------->
+       <h1>Eggs, Meat And Fish</h1>
+       <div class="econt" id="emf">
+        <div class="emf">
+            <img src="media/egg.jpg" alt="greengrocery" />
+            <form>
+            <label>Egg</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="emf">
+            <img src="media/mutton.jpg" alt="greengrocery" />
+            <form>
+            <label>Mutton Curry</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="emf">
+            <img src="media/lamb.jpg" alt="greengrocery" />
+            <form>
+            <label>Lamb Meat</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="emf">
+            <img src="media/salmon.jpg" alt="greengrocery" />
+            <form>
+            <label>Salmon Fish</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="emf">
+            <img src="media/chicken.jpg" alt="greengrocery" />
+            <form>
+            <label>Whole Chicken</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        
+       </div>
+       <!-------------------------------------------Pulses------------------------------------------>
+       <h1>Pulses</h1>
+       <div class="pcont" id="pulses">
+        <div class="pulses">
+            <img src="media/masoor.jpg" alt="greengrocery" />
+            <form>
+            <label>Masoor Dal</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="pulses">
+            <img src="media/chana.jpg" alt="greengrocery" />
+            <form>
+            <label>Chana Dal</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="pulses">
+            <img src="media/moong.jpg" alt="greengrocery" />
+            <form>
+            <label>Green Moong Whole</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="pulses">
+            <img src="media/toor.jpg" alt="greengrocery" />
+            <form>
+            <label>Toor Dal</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="pulses">
+            <img src="media/mix.jpg" alt="greengrocery" />
+            <form>
+            <label>Mix Dal</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        
+       </div>
+       <!-----------------------------------------Oil Masalas----------------------------------------->
+       <h1>Oil And Masalas</h1>
+       <div class="mcont" id="oil">
+        <div class="masala">
+            <img src="media/mustard.jpg" alt="greengrocery" />
+            <form>
+            <label>Fortune Mustard Oil</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="masala">
+            <img src="media/olive.jpg" alt="greengrocery" />
+            <form>
+            <label>Borges Olive Oil</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="masala">
+            <img src="media/garam.jpg" alt="greengrocery" />
+            <form>
+            <label>Catch Garam Masala</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="masala">
+            <img src="media/jeera.jpg" alt="greengrocery" />
+            <form>
+            <label>Lauva Jeera</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="masala">
+            <img src="media/chilli.jpg" alt="greengrocery" />
+            <form>
+            <label>Patanjali Chilli Powder</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        
+       </div>
+       <!------------------------------------------Diary Products------------------------------------>
+       <h1>Dairy Products</h1>
+       <div class="dcont" id="dairy">
+        <div class="dairy">
+            <img src="media/butter.jpg" alt="greengrocery" />
+            <form>
+            <label>Amul Butter</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="dairy">
+            <img src="media/paneer.jpg" alt="greengrocery" />
+            <form>
+            <label>Amul Malai Paneer</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="dairy">
+            <img src="media/dahi.jpg" alt="greengrocery" />
+            <form>
+            <label>Amul Masti Dahi</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="dairy">
+            <img src="media/lassi.jpg" alt="greengrocery" />
+            <form>
+            <label>Amul Lassi</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="dairy">
+            <img src="media/shake.jpg" alt="greengrocery" />
+            <form>
+            <label>HERSHEY'S Milkshake</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        
+       </div>
+       <!------------------------------------------Snacks--------------------------------------------->
+       <h1>Snacks store</h1>
+       <div class="scont" id="snacks">
+        <div class="snacks">
+            <img src="media/chips.jpg" alt="greengrocery" />
+            <form>
+            <label>Lay's Potato chips</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="snacks">
+            <img src="media/kurkure.jpg" alt="greengrocery" />
+            <form>
+            <label>Kurkure Masala Munch</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="snacks">
+            <img src="media/dark.jpg" alt="greengrocery" />
+            <form>
+            <label>Dark Fantasy</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="snacks">
+            <img src="media/chocos.jpg" alt="greengrocery" />
+            <form>
+            <label>Kellogg's Chocos Cereal</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="snacks">
+            <img src="media/mixture.jpg" alt="greengrocery" />
+            <form>
+            <label>Haldiram's Mixture</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        
+       </div>
+       <!------------------------------------Beverages-------------------------------------------->
+       <h1>Beverages</h1>
+       <div class="bcont" id="beverage">
+        <div class="beverage">
+            <img src="media/nescafe.jpg" alt="greengrocery" />
+            <form>
+            <label>Nescafe Coffee</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="beverage">
+            <img src="media/coca.jpg" alt="greengrocery" />
+            <form>
+            <label>Coca Cola Soft Drink</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="beverage">
+            <img src="media/sprite.jpg" alt="greengrocery" />
+            <form>
+            <label>Sprite Cold Drink</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="beverage">
+            <img src="media/taj.jpg" alt="greengrocery" />
+            <form>
+            <label>Taj Mahal Tea</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="beverage">
+            <img src="media/boost.jpg" alt="greengrocery" />
+            <form>
+            <label>Boost Nutrition Drink</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        
+       </div>
+       <!-------------------------------------Kitchenware------------------------------------------>
+       <h1>Kitchenware</h1>
+       <div class="kcont" id="clean">
+        <div class="kware">
+            <img src="media/tawa.jpg" alt="greengrocery" />
+            <form>
+            <label>Non-Stick Tawa</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="kware">
+            <img src="media/cooker.jpg" alt="greengrocery" />
+            <form>
+            <label>Pressure Cooker</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="kware">
+            <img src="media/stove.jpg" alt="greengrocery" />
+            <form>
+            <label>Gas Stove</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="kware">
+            <img src="media/pan.jpg" alt="greengrocery" />
+            <form>
+            <label>Non-Stick Pan</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        <div class="kware">
+            <img src="media/broom.jpg" alt="greengrocery" />
+            <form>
+            <label>Dust Broom</label><br/>
+            <label>Price: Rs 30</label><br/>
+            <label><i>Qty</i></label>
+            <input type="number" placeholder="1" min="1" max="5" value="1" style="width:15%"/>
+            <button class="button">ADD CART</button>
+        </form>
+        </div>
+        
+       </div>
+       <!--==================================Footer===============================================-->
+       <div class="footer">
+        <a href="home.html" class="logo">
+            <img src="media/logo.png" alt=""/>
+        </a>
+        <a href="home.html" class="logo1">
+            <img src="media/logo1.png" alt=""/>
+        </a>
+        
+        <menu class="fmenu">
+            <a href="home.html">Home</a><br>
+            <a href="About Us.html">About Us</a><br>
+            <a href="Contact us.html">Contact Us</a><br>
+        </menu>
+       </div>
+    </body>
+</html>

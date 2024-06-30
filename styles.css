@@ -1,0 +1,840 @@
+body{
+    /* background-color: lightgreen;*/
+    text-align: center;
+ }
+ h1{
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+ }
+ /************************************************** Header **************************************/
+ .header{
+     background-color: white;
+     position:fixed;
+     top:0;
+     left: 0;
+     right: 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0rem 5%;
+ }
+ 
+ .logo1{
+     display:none;
+ }
+ .search{
+     /*background-color:red;*/
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     border: 2px solid black;
+     border-radius: 10px;
+ }
+ #search-box{
+     font-size:25px;
+     width:40rem;
+     border: none;
+     border-radius: 10px;
+     
+ }
+ .search label{
+     font-size:25px;
+    /* background-color:yellow;*/
+     padding: 0.25rem;
+     cursor: pointer;
+     border-radius: 10px;
+ }
+ .search label:hover{
+     background-color: lightgreen;
+ }
+ .navbar{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     /*background-color: aqua;*/
+     width:10rem;
+ }
+ .button{
+     border:none;
+     padding:0.6rem;
+     justify-content: space-between;
+     background-color: white;
+     font-size: 12px;
+     cursor: pointer;
+     border:1px solid black ;
+     border-radius: 10px ;
+     transition: ease-in-out;
+ }
+ .button:hover{
+     background-color: lightgreen;
+     box-shadow: 2px 2px grey; 
+     transform: scale(1.1);
+ }
+ .fa.fa-user{
+     font-size:15px;
+ }
+ .fa.fa-shopping-cart{
+     font-size:15px;
+ }
+ /************************************************ menu bar **********************************/
+ .menubar{
+     height:2.5rem;
+     position: fixed;
+     top:3rem;
+     left:0;
+     right:0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 5%;
+     background-color: white;
+ }
+ .categories{
+     border:none;
+     padding:0.5rem;
+     justify-content: space-between;
+     background-color: white;
+     font-size: 18px;
+     cursor: pointer;
+     /*border:1px solid black ;
+     border-radius: 10px ;*/
+ }
+ .categories:hover{
+     display:list-item;
+     color: green;
+ }
+ .menu{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     /*background-color: aqua;*/
+     width:18rem;
+ }
+ .menu a{
+     border:none;
+     text-decoration: none;;
+     padding:0.1rem;
+     justify-content: space-between;
+     color:black;
+     font-size: 18px;
+     cursor: pointer;
+     transition: ease-in-out;
+     
+ }
+ .menu a:hover{
+     color:green;
+     font-weight: bolder;
+     transform: scale(1.05);
+ }
+ /************************************************ Home *******************************************/
+ section{
+     padding: 100px;
+   
+   /*  background-color: aqua;*/
+     align-items: center;
+     
+ }
+ .home{
+     top:7.5rem;
+     height:45vh;
+     width:90vw;
+     display: flex;
+     overflow: scroll hidden;
+     text-align: center;
+     
+ 
+ }
+ .home img{
+     background-size: cover;
+     height: 100%;
+     width:100%;
+     border-radius: 20px 20px 20px 20px;
+ 
+ }
+ .btncont{
+     display: block;
+     padding:2rem;
+     text-align: center;
+     align-items: center;
+     justify-content: space-between;
+     width:auto;
+     /*background-color: aqua;*/
+     letter-spacing: 1rem;
+ }
+ .btncont Button{
+     border:none;
+     padding:0.6rem;
+     justify-content: space-between;
+     background-color: lightgrey;
+     font-size: 28px;
+     cursor: pointer;
+     border-radius: 10px ;
+     font-weight: 600;
+ }
+ .btncont Button:hover{
+     background-color:lightgreen;
+     box-shadow: 2px 2px grey; 
+ }
+ /***************************************** Offers **************************************/
+ .offers{
+     display: block;
+     padding:2rem 4%;
+     letter-spacing: 3rem;
+ }
+ .offers img{
+     cursor:pointer;
+     border-radius: 20px;
+     transition: 0.2s all ease-in-out;
+ }
+ .offers img:hover{
+     box-shadow: 3px 3px 3px 3px lightgreen;
+     /*border-radius: 0px;*/
+     transform: scale(1.2);
+ }
+ /*************************************** Vegitable Store*********************************/
+ .vegf{
+     padding: 100;
+     display: block;
+     /*background-color: aqua;*/
+ }
+ .veg{
+     text-align: center;
+     padding:0.6rem;
+     display: inline-block;
+     cursor: pointer;
+     box-shadow: 1px 1px 1px 1px #E8E8E8;
+ 
+ }
+ .veg form{
+     padding:0.5rem;
+     background-color: #F0F0F0;
+    
+ }
+ .veg:hover{
+     box-shadow: 2px 2px 2px 2px grey;
+     border-radius: 20px;
+ }
+ /********************************** Egg, Meat and Fish Store *****************************/
+ .econt{
+     padding: 2rem 6%;
+     display: block;
+     /*background-color: aqua;*/
+ }
+ .emf{
+     text-align: center;
+     padding:0.6rem;
+     display: inline-block;
+     cursor: pointer;
+     box-shadow: 1px 1px 1px 1px #E8E8E8;
+ 
+ }
+ .emf form{
+     padding:0.5rem;
+     background-color: #F0F0F0;
+    
+ }
+ .emf:hover{
+     box-shadow: 2px 2px 2px 2px grey;
+     border-radius: 20px;
+ }
+ /****************************************** Pulses ****************************************/
+ .pcont{
+     padding: 2rem 6%;
+     display: block;
+     /*background-color: aqua;*/
+ }
+ .pulses{
+     text-align: center;
+     padding:0.6rem;
+     display: inline-block;
+     cursor: pointer;
+     box-shadow: 1px 1px 1px 1px #E8E8E8;
+ 
+ }
+ .pulses form{
+     padding:0.5rem;
+     background-color: #F0F0F0;
+    
+ }
+ .pulses:hover{
+     box-shadow: 2px 2px 2px 2px grey;
+     border-radius: 20px;
+ }
+ /***************************************** Masalas ****************************************/
+ .mcont{
+     padding: 2rem 6%;
+     display: block;
+     /*background-color: aqua;*/
+ }
+ .masala{
+     text-align: center;
+     padding:0.6rem;
+     display: inline-block;
+     cursor: pointer;
+     box-shadow: 1px 1px 1px 1px #E8E8E8;
+ 
+ }
+ .masala form{
+     padding:0.5rem;
+     background-color: #F0F0F0;
+    
+ }
+ .masala:hover{
+     box-shadow: 2px 2px 2px 2px grey;
+     border-radius: 20px;
+ }
+ /**************************************** Dairy *******************************************/
+ .dcont{
+     padding: 2rem 6%;
+     display: block;
+     /*background-color: aqua;*/
+ }
+ .dairy{
+     text-align: center;
+     padding:0.6rem;
+     display: inline-block;
+     cursor: pointer;
+     box-shadow: 1px 1px 1px 1px #E8E8E8;
+ 
+ }
+ .dairy form{
+     padding:0.5rem;
+     background-color: #F0F0F0;
+    
+ }
+ .dairy:hover{
+     box-shadow: 2px 2px 2px 2px grey;
+     border-radius: 20px;
+ }
+ /**************************************** Snacks *******************************************/
+ .scont{
+     padding: 2rem 6%;
+     display: block;
+     /*background-color: aqua;*/
+ }
+ .snacks{
+     text-align: center;
+     padding:0.6rem;
+     display: inline-block;
+     cursor: pointer;
+     box-shadow: 1px 1px 1px 1px #E8E8E8;
+ 
+ }
+ .snacks form{
+     padding:0.5rem;
+     background-color: #F0F0F0;
+    
+ }
+ .snacks:hover{
+     box-shadow: 2px 2px 2px 2px grey;
+     border-radius: 20px;
+ }
+ /*************************************** bevegrages ****************************************/
+ .bcont{
+     padding: 2rem 6%;
+     display: block;
+     /*background-color: aqua;*/
+ }
+ .beverage{
+     text-align: center;
+     padding:0.6rem;
+     display: inline-block;
+     cursor: pointer;
+     box-shadow: 1px 1px 1px 1px #E8E8E8;
+ 
+ }
+ .beverage form{
+     padding:0.5rem;
+     background-color: #F0F0F0;
+    
+ }
+ .beverage:hover{
+     box-shadow: 2px 2px 2px 2px grey;
+     border-radius: 20px;
+ }
+ /************************************** Kitchenware ****************************************/
+ .kcont{
+     padding: 2rem 6%;
+     display: block;
+     /*background-color: aqua;*/
+ }
+ .kware{
+     text-align: center;
+     padding:0.6rem;
+     display: inline-block;
+     cursor: pointer;
+     box-shadow: 1px 1px 1px 1px #E8E8E8;
+ 
+ }
+ .kware form{
+     padding:0.5rem;
+     background-color: #F0F0F0;
+    
+ }
+ .kware:hover{
+     box-shadow: 2px 2px 2px 2px grey;
+     border-radius: 20px;
+ }
+ /**************************************** Footer *******************************************/
+ .footer{
+     background-color: #F0F0F0;
+     padding:2rem 10%;
+     display: flex;
+ }
+ .fmenu{
+     margin-left: 40%;
+     display: block;
+     
+ }
+ .fmenu a{
+     border:none;
+     text-decoration: none;;
+     padding:1rem;
+     line-height: 2.5rem;
+     justify-content: space-between;
+     color:black;
+     font-size: 20px;
+     cursor: pointer;
+     transition: ease-in-out;
+     
+ }
+ .fmenu a:hover{
+     color:green;
+     font-weight: bolder;
+     transform: scale(1.05);
+ }
+ 
+ /********************************** Reset Password Page ************************************/
+ .reset{
+     display:block;
+     text-align: center;
+     padding:0.6rem;
+     border:10px solid green;
+     box-shadow: 1px 1px 1px 1px #E8E8E8;
+     width: fit-content;
+     border-radius: 20px;
+     background-color: #cdffcd;
+     margin-left: 35%;
+ }
+ .reset form{
+     padding:2rem;
+     text-align: left;
+     background-color: #cdffcd;
+     
+ }
+ .reset:hover{
+     box-shadow: 2px 2px 2px 2px grey;
+     border-radius: 20px;
+ }
+ /********************************* R 1150 Px ********************************************/
+ @media screen and (max-width: 1150px) {
+     #search-box{
+         width:30rem;
+     }
+     .btncont{
+         letter-spacing: 1rem;
+     }
+     .btncont button{
+         font-size: 24px;
+     }
+     .offers{
+         width:70%;
+         margin-left: 10%;
+     }
+     }
+ /********************************** R 945px ***********************************************/
+ 
+ @media screen and (max-width: 945px) {
+     #search-box{
+         width:25rem;
+     }
+     .btncont button{
+         font-size: 21px;
+         font-weight: 600;
+     }
+     .offers{
+         width:80%;
+         margin-left: 5%;
+     }
+     .login{
+         margin-left: 25%;
+     }
+     .sign{
+         margin-left: 25%;
+     }
+     .reset{
+         margin-left: 25%;
+     }
+     }
+ /************************************* 830px ************************************************/
+ @media screen and (max-width: 830px) {
+     #search-box{
+         width:20rem;
+     }
+     .home{
+         width:98vw;
+     }
+     .btncont{
+         padding: 1rem;
+         margin-left: 1rem;
+         letter-spacing: 0.5rem;
+         width:100%;
+     }
+     .btncont button{
+         font-size: 20px;
+     }
+     .offers{
+         margin-left: 8%;
+     }
+     .vegf{
+         width:100%;
+     }
+     .econt{
+         width:100%;
+     }
+     .pcont{
+         width:100%;
+     }
+     .mcont{
+         width:100%;
+     }
+     .dcont{
+         width:100%;
+     }
+     .bcont{
+         width:100%;
+     }
+     .scont{
+         width:100%;
+     }
+     .kcont{
+         width:100%;
+     }
+     .reset{
+         margin-left: 25%;
+         margin-top:20%;
+     }
+     }
+ /************************************** 725 px ***********************************************/
+ @media screen and (max-width: 725px) {
+     #search-box{
+         width:15rem;
+     }
+     .btncont button{
+         font-size: 18px;
+         font-weight: lighter;
+         padding:0.4rem;
+     }
+     .offers{
+         width:auto;
+         margin-left: 8%;
+         padding: 1rem;
+         letter-spacing: 1rem;
+     }
+     .vegf{
+         width:100%;
+     }
+     .econt{
+         width:100%;
+     }
+     .pcont{
+         width:100%;
+     }
+     .mcont{
+         width:100%;
+     }
+     .dcont{
+         width:100%;
+     }
+     .bcont{
+         width:100%;
+     }
+     .scont{
+         width:100%;
+     }
+     .kcont{
+         width:100%;
+     }
+     .login{
+         margin-left: 20%;
+         margin-top:20%;
+     }
+     .sign{
+         margin-left: 20%;
+         margin-top:20%;
+     }
+     .reset{
+         margin-left: 20%;
+         margin-top:20%;
+     }
+     }
+ /*************************************** 615 px **********************************************/
+ @media screen and (max-width: 615px) {
+     #search-box{
+         width:10rem;
+         font-size: 20px;
+     }
+     .search label{
+         font-size: 20px;
+     }
+     .home{
+         height:30vh;
+         width:100vw;
+     }
+     .btncont button{
+         font-size: 16px;
+     }
+     .offers img{
+         width:200px;
+     }
+     .vegf{
+         width: 100%;
+     }
+     .veg img{
+         width:100px;
+     }
+     .econt{
+         width:100%;
+     }
+     .emf img{
+         width:100px;
+     }
+     .pcont{
+         width:100%;
+     }
+     .pulses img{
+         width:100px;
+     }
+     .mcont{
+         width:100%;
+     }
+     .masala img{
+         width:100px;
+     }
+     .dcont{
+         width:100%;
+     }
+     .dairy img{
+         width:100px;
+     }
+     .scont{
+         width:100%;
+     }
+     .snacks img{
+         width:100px;
+     }
+     .bcont{
+         width:100%;
+     }
+     .beverage img{
+         width:100px;
+     }
+     .kcont{
+         width:100%;
+     }
+     .kware img{
+         width:100px;
+     }
+     footer{
+         width:100%;
+     }
+     .login{
+         margin-left: 15%;
+         margin-top:25%;
+     }
+     .sign{
+         margin-left: 15%;
+         margin-top:25%;
+     }
+     .reset{
+         margin-left: 15%;
+         margin-top:20%;
+     }
+     }
+ /***************************************** 530px ************************************************/
+ @media screen and (max-width: 530px) {
+     h1{
+         font-size: 24px;
+     }
+     .logo{
+         display:none;
+     }
+     .logo1{
+         display:flex;
+         height:2rem;
+     }
+     #search-box{
+         width:15rem;
+     }
+     .navbar{
+         width:6rem;
+     }
+     .button{
+         padding:0.5rem;
+         font-size: 8px;
+     }
+     .fa.fa-user{
+         font-size: 10px;
+     }
+     .fa.fa.fa-shopping-cart{
+         font-size: 10px;
+     }
+     .menubar{
+         top:2rem;
+     }
+     .categories{
+         font-size: 15px;
+     }
+     .menu{
+         width:15rem;
+     }
+     .menu a{
+         font-size: 15px;
+     }
+     .btncont{
+         letter-spacing: 0.25rem;
+     }
+     .btncont button{
+         font-size: 12px;
+     }
+     .offers img{
+         width:150px;
+         border-radius: 10px;
+     }
+     .login{
+         margin-left: 8%;
+         margin-top:25%;
+     }
+     .sign{
+         margin-left: 8%;
+         margin-top:25%;
+     }
+     .reset{
+         margin-left: 10%;
+         margin-top:20%;
+     }
+     }
+ /************************************** 415 px ****************************************/
+ @media screen and (max-width: 415px) {
+     #search-box{
+         width:10rem;
+     }
+     .categories{
+         font-size: 12px;
+     }
+     .menu{
+         width:10rem;
+     }
+     .menu a{
+         font-size: 12px;
+     }
+     .btncont button{
+         font-size: 10px;
+     }
+     .offers img{
+         width:120px;
+         border-radius: 10px;
+     }
+     .footer{
+         width:100%;
+     }
+     .login{
+         margin-left:0%;
+         margin-top:25%;
+     }
+     .sign{
+         margin-left: 0%;
+         margin-top:20%;
+     }
+     .reset{
+         margin-left: 0%;
+         margin-top:20%;
+     }
+     }
+
+
+
+
+
+     
+
+     body {
+        background: #eaecef;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin: 6% auto 0;
+    }
+    .single-card {
+        position: relative;
+        width: 280px;
+        height: 300px;
+        margin: 15px;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+        transition: box-shadow 0.3s ease;
+        overflow: hidden;
+        background: #7ec5bb;
+        border-radius: 15px;
+        transition: all 0.8s ease-in-out;
+    }
+    .single-card:hover {
+        transform: translateY(-10px);
+    }
+    .img-area {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+    }
+    .img-area img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+    .img-area:hover img {
+        transform: scale(1.1);
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(155, 180, 191, 0.8);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    
+    }
+    .single-card:hover .overlay {
+        opacity: 1;
+    }
+    
+    .add-to-cart:hover, .view-details:hover {
+        background-color: rgb(151, 210, 217);
+        color: #fff;
+        border: none;
+    }
+    
+    .info {
+        padding: 10px;
+        text-align: center;
+        color: #060606;
+    }
+    
+    .info h3 {
+        margin: 15px 0 10px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    
